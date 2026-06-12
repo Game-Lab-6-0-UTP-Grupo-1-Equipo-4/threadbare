@@ -1,6 +1,6 @@
 [gd_resource type="SpriteFrames" format=3 uid="uid://b0skd5k4rihh8"]
 
-[ext_resource type="Texture2D" path="res://scenes/quests/story_quests/los_fragmentos_del_s/2_combat/combat_components/los_fragmentos_del_s_target.png" id="1_ngq0m"]
+[ext_resource type="Texture2D" uid="uid://b7h6njv0idi2v" path="res://scenes/quests/story_quests/los_fragmentos_del_s/2_combat/combat_components/los_fragmentos_del_s_target.png" id="1_ngq0m"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_kf7lf"]
 atlas = ExtResource("1_ngq0m")
