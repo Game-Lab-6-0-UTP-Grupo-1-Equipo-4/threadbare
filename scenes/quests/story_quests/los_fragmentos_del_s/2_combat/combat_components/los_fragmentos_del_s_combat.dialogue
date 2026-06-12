@@ -1,11 +1,17 @@
 # SPDX-FileCopyrightText: The Threadbare Authors
 # SPDX-License-Identifier: MPL-2.0
-
 ~ start
-Something in this scene will throw projectiles at you. The goal is to redirect them toward the targets.
-Explore the Scene Tree to add, change, or remove elements.
+Jarrones de cristal se alinean en el suelo. Desde un techo invisible caen gotas de algo oscuro, lento, pesado.
+Voz del Soñador: "[i]No las dejes caer.[/i]"
+???: "¿Qué son esas gotas?"
+Voz del Soñador: "[i]Corrupción. Fragmentos oscuros que pudren los recuerdos si se asientan.[/i]"
+Voz del Soñador: "[i]Devuélvelas con tu espada. Llena los jarrones antes de que toquen el suelo.[/i]"
+???: "Entendido. No dejaré que los recuerdos se corrompan."
 => END
 
 ~ well_done
-You can add text here after the player takes the collectible. Be creative with this one!
+El último jarrón brilla con una luz cálida. La corrupción fue devuelta.
+???: "¿Eso era...? Se siente cálido. Como si me reconociera."
+Voz del Soñador: "[i]El segundo recuerdo. Queda uno más.[/i]"
+Voz del Soñador: "[i]Sigue. Pero apresúrate — algo se acerca desde las sombras.[/i]"
 => END

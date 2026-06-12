@@ -212,6 +212,7 @@ _data = {
 }
 
 [node name="LosFragmentosDelSIntro" type="Node2D" unique_id=2049284984]
+metadata/_edit_horizontal_guides_ = [-159.0]
 
 [node name="TileMapLayers" type="Node2D" parent="." unique_id=591504591]
 
@@ -285,4 +286,4 @@ metadata/_custom_type_script = "uid://c8405c212rbn6"
 
 [node name="AmbientAnimation" type="AnimationPlayer" parent="." unique_id=1731205887]
 libraries/ = SubResource("AnimationLibrary_ambfx")
-autoplay = "ambient"
+autoplay = &"ambient"
