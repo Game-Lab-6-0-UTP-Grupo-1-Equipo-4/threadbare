@@ -1,16 +1,30 @@
 [gd_resource type="SpriteFrames" format=3 uid="uid://bva8m6hvq6jje"]
 
-[ext_resource type="Texture2D" uid="uid://cagyo41xspko" path="res://assets/first_party/templates/combat/NO_EDIT_projectile.png" id="1_putbu"]
+[ext_resource type="Texture2D" path="res://scenes/quests/story_quests/los_fragmentos_del_s/2_combat/combat_components/los_fragmentos_del_s_projectile.png" id="1_putbu"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_a6ony"]
 atlas = ExtResource("1_putbu")
 region = Rect2(0, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_b7pnz"]
+atlas = ExtResource("1_putbu")
+region = Rect2(64, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_c8qoa"]
+atlas = ExtResource("1_putbu")
+region = Rect2(128, 0, 64, 64)
 
 [resource]
 animations = [{
 "frames": [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_a6ony")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_b7pnz")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_c8qoa")
 }],
 "loop": true,
 "name": &"default",

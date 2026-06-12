@@ -1,22 +1,22 @@
 [gd_resource type="SpriteFrames" format=3 uid="uid://b0skd5k4rihh8"]
 
-[ext_resource type="Texture2D" uid="uid://do4tec8oedbcx" path="res://assets/first_party/templates/combat/NO_EDIT_target.png" id="1_ngq0m"]
+[ext_resource type="Texture2D" path="res://scenes/quests/story_quests/los_fragmentos_del_s/2_combat/combat_components/los_fragmentos_del_s_target.png" id="1_ngq0m"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_kf7lf"]
 atlas = ExtResource("1_ngq0m")
-region = Rect2(64, 64, 64, 64)
+region = Rect2(0, 0, 64, 64)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_q0cj1"]
 atlas = ExtResource("1_ngq0m")
-region = Rect2(0, 64, 64, 64)
+region = Rect2(64, 0, 64, 64)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_he37w"]
 atlas = ExtResource("1_ngq0m")
-region = Rect2(64, 0, 64, 64)
+region = Rect2(128, 0, 64, 64)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_4v1rc"]
 atlas = ExtResource("1_ngq0m")
-region = Rect2(0, 0, 64, 64)
+region = Rect2(192, 0, 64, 64)
 
 [resource]
 animations = [{
