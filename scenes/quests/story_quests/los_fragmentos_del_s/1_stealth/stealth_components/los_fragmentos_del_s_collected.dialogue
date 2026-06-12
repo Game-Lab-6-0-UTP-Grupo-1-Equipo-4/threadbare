@@ -2,7 +2,9 @@
 # SPDX-License-Identifier: MPL-2.0
 ~ start
 ???: "Está... caliente. Como si me reconociera."
-Voz del Soñador: "[i]Un fragmento más. El sueño respira un poco más fuerte.[/i]"
-???: "Puedo sentirlo. Algo vuelve a su lugar."
-Voz del Soñador: "[i]Sigue. Aún falta uno.[/i]"
+Voz del Soñador: "[i]El último fragmento.[/i]"
+???: "Puedo sentirlo. Algo se completa. Algo... vuelve."
+Voz del Soñador: "[i]Los tres recuerdos reunidos. El último sueño se abre.[/i]"
+???: "¿El último sueño...? ¿Qué encontraré ahí?"
+Voz del Soñador: "[i]La verdad.[/i]"
 => END

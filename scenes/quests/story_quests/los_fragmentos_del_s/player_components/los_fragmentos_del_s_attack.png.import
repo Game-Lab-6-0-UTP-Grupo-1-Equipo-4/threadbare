@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://ci7nw7ere1ycn"
-path="res://.godot/imported/2MINIGAME.png-327e29c348a92a048f4b07e84de1e867.ctex"
+uid="uid://c1gi3tdswefvw"
+path="res://.godot/imported/los_fragmentos_del_s_attack.png-07ddff8997f479afc9b106f6640a44e8.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://docs-grupo/2MINIGAME.png"
-dest_files=["res://.godot/imported/2MINIGAME.png-327e29c348a92a048f4b07e84de1e867.ctex"]
+source_file="res://scenes/quests/story_quests/los_fragmentos_del_s/player_components/los_fragmentos_del_s_attack.png"
+dest_files=["res://.godot/imported/los_fragmentos_del_s_attack.png-07ddff8997f479afc9b106f6640a44e8.ctex"]
 
 [params]
 

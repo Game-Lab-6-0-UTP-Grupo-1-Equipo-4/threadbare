@@ -1,0 +1,30 @@
+# Tutorials Index — endlessm/threadbare discussions
+
+- [Set up a GitHub account](562.md) — https://github.com/endlessm/threadbare/discussions/562
+- [Download and install Godot](563.md) — https://github.com/endlessm/threadbare/discussions/563
+- [Set up Git](564.md) — https://github.com/endlessm/threadbare/discussions/564
+- [Clone the forked repository to your computer](565.md) — https://github.com/endlessm/threadbare/discussions/565
+- [Import Threadbare into Godot and Run the Game](598.md) — https://github.com/endlessm/threadbare/discussions/598
+- [Duplicate and rename the template folders and files](599.md) — https://github.com/endlessm/threadbare/discussions/599
+- [Complete the StoryQuest GDD](600.md) — https://github.com/endlessm/threadbare/discussions/600
+- [Redesign placeholder tilemap for intro & outro](601.md) — https://github.com/endlessm/threadbare/discussions/601
+- [Design and replace character(s) for intro & outro](602.md) — https://github.com/endlessm/threadbare/discussions/602
+- [Add narrative text for intro & outro](604.md) — https://github.com/endlessm/threadbare/discussions/604
+- [Create and replace art assets for intro and outro](605.md) — https://github.com/endlessm/threadbare/discussions/605
+- [Connect scene to scene](611.md) — https://github.com/endlessm/threadbare/discussions/611
+- [Redesign placeholder tilemap for a mini-game](612.md) — https://github.com/endlessm/threadbare/discussions/612
+- [Design and replace character(s) for a mini-game](615.md) — https://github.com/endlessm/threadbare/discussions/615
+- [Conduct playtesting sessions](616.md) — https://github.com/endlessm/threadbare/discussions/616
+- [Gather and reflect on player feedback](617.md) — https://github.com/endlessm/threadbare/discussions/617
+- [Refine your game](618.md) — https://github.com/endlessm/threadbare/discussions/618
+- [Create your game pitch deck](619.md) — https://github.com/endlessm/threadbare/discussions/619
+- [Present your StoryQuest](620.md) — https://github.com/endlessm/threadbare/discussions/620
+- [Add music and/or sound effects for a mini-game](622.md) — https://github.com/endlessm/threadbare/discussions/622
+- [Connect scene to scene](624.md) — https://github.com/endlessm/threadbare/discussions/624
+- [Play Threadbare](625.md) — https://github.com/endlessm/threadbare/discussions/625
+- [Join a team](626.md) — https://github.com/endlessm/threadbare/discussions/626
+- [Create and replace art assets for a mini-game](627.md) — https://github.com/endlessm/threadbare/discussions/627
+- [Brainstorm StoryQuest ideas](628.md) — https://github.com/endlessm/threadbare/discussions/628
+- [Add narrative text for a mini-game](629.md) — https://github.com/endlessm/threadbare/discussions/629
+- [Modify mechanics for a mini-game](630.md) — https://github.com/endlessm/threadbare/discussions/630
+- [Publish your StoryQuest](649.md) — https://github.com/endlessm/threadbare/discussions/649

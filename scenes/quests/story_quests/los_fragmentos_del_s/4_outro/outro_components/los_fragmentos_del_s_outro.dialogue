@@ -1,7 +1,14 @@
 # SPDX-FileCopyrightText: The Threadbare Authors
 # SPDX-License-Identifier: MPL-2.0
 ~ start
-You've made it to the closing scene!
-This is where you will tie up the loose ends of your story.
-Let's go back to Fray's End so you can return these threads to the Eternal Loom...
+Un espacio blanco y vacío. Sin gravedad. Los fragmentos que recogiste flotan a tu alrededor, reorganizándose poco a poco.
+Voz del Soñador: "[i]Te recordamos.[/i]"
+???: "¿Qué... qué está pasando? Estos fragmentos..."
+La silueta que forman los fragmentos te resulta familiar. Es tu propia forma. Siempre lo fue.
+Voz del Soñador: "[i]Tú no eras quien los reconstruía.[/i]"
+???: "No entiendo. Vine a reunir los fragmentos. A restaurar los sueños del Soñador..."
+Voz del Soñador: "[i]Tú eras uno de los sueños perdidos.[/i]"
+???: "...yo era... ¿un sueño?"
+El Soñador no desapareció. Simplemente dejó de soñarte.
+???: "...entonces ¿quién soñaba conmigo?"
 => END

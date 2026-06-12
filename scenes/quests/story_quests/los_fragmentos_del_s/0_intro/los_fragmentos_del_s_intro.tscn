@@ -10,6 +10,9 @@
 [ext_resource type="AudioStream" uid="uid://cvwxb1nldylcs" path="res://assets/third_party/ninja_adventure/dream_theme.ogg" id="8_bgmus"]
 [ext_resource type="PackedScene" uid="uid://ccp4ayow34e7g" path="res://scenes/game_elements/props/decoration/books/books.tscn" id="9_books"]
 [ext_resource type="PackedScene" uid="uid://bqhlguj2qmwx4" path="res://scenes/game_elements/props/decoration/spool/spool.tscn" id="10_spool"]
+[ext_resource type="PackedScene" uid="uid://dm2tlhvjut08q" path="res://scenes/game_elements/fx/shine_particles/shine_particles.tscn" id="11_shine"]
+[ext_resource type="PackedScene" uid="uid://crqjcicx0vdu" path="res://scenes/game_elements/props/decoration/bush/bush.tscn" id="12_bush"]
+[ext_resource type="PackedScene" uid="uid://c0104ickpm3ru" path="res://scenes/game_elements/props/decoration/flower/flower.tscn" id="13_flower"]
 
 [sub_resource type="Animation" id="Animation_wwekd"]
 length = 0.001
@@ -202,7 +205,7 @@ tracks/3/keys = {
 "times": PackedFloat32Array(0, 0.9, 1.7, 2.3, 3.1, 4.2, 5.3, 6.4),
 "transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1),
 "update": 0,
-"values": [Color(0.8, 0.77, 0.97, 1), Color(0.85, 0.82, 1, 1), Color(0.77, 0.74, 0.94, 1), Color(0.83, 0.8, 0.99, 1), Color(0.78, 0.75, 0.95, 1), Color(0.86, 0.83, 1, 1), Color(0.76, 0.73, 0.93, 1), Color(0.8, 0.77, 0.97, 1)]
+"values": [Color(0.8, 0.77, 0.97, 1), Color(0.88, 0.85, 1, 1), Color(0.72, 0.69, 0.89, 1), Color(0.86, 0.83, 1, 1), Color(0.74, 0.71, 0.91, 1), Color(0.88, 0.85, 1, 1), Color(0.72, 0.69, 0.89, 1), Color(0.8, 0.77, 0.97, 1)]
 }
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_ambfx"]
@@ -212,6 +215,7 @@ _data = {
 }
 
 [node name="LosFragmentosDelSIntro" type="Node2D" unique_id=2049284984]
+metadata/_edit_horizontal_guides_ = [-159.0]
 
 [node name="TileMapLayers" type="Node2D" parent="." unique_id=591504591]
 
@@ -250,6 +254,12 @@ position = Vector2(240, 460)
 [node name="Books2" parent="FloatingObjects" unique_id=1731205886 instance=ExtResource("9_books")]
 position = Vector2(380, 320)
 
+[node name="ShineParticles" parent="FloatingObjects" unique_id=1654327155 instance=ExtResource("11_shine")]
+modulate = Color(0.7, 0.5, 1, 1)
+position = Vector2(390, 320)
+emitting = true
+one_shot = false
+
 [node name="OnTheGround" type="Node2D" parent="." unique_id=836096441]
 y_sort_enabled = true
 
@@ -262,6 +272,33 @@ autoplay = "idle"
 [node name="AnimationPlayer" type="AnimationPlayer" parent="OnTheGround" unique_id=49807179]
 root_node = NodePath("../..")
 libraries/ = SubResource("AnimationLibrary_p2kio")
+
+[node name="Bush3" parent="OnTheGround" unique_id=1924859315 instance=ExtResource("12_bush")]
+position = Vector2(1251, 856)
+
+[node name="Bush" parent="OnTheGround" unique_id=560398179 instance=ExtResource("12_bush")]
+position = Vector2(75, 162)
+
+[node name="Bush" parent="OnTheGround/Bush" unique_id=118418013 instance=ExtResource("12_bush")]
+position = Vector2(-22, -84)
+
+[node name="Bush2" parent="OnTheGround/Bush" unique_id=393203771 instance=ExtResource("12_bush")]
+position = Vector2(153, -117)
+
+[node name="Bush3" parent="OnTheGround/Bush" unique_id=1447779245 instance=ExtResource("12_bush")]
+position = Vector2(373, 673)
+
+[node name="Bush2" parent="OnTheGround" unique_id=1137679154 instance=ExtResource("12_bush")]
+position = Vector2(558, 79)
+
+[node name="Flower" parent="OnTheGround" unique_id=1942490223 instance=ExtResource("13_flower")]
+position = Vector2(320, 410)
+
+[node name="Flower3" parent="OnTheGround" unique_id=967436623 instance=ExtResource("13_flower")]
+position = Vector2(1160, 880)
+
+[node name="Flower2" parent="OnTheGround" unique_id=1541599161 instance=ExtResource("13_flower")]
+position = Vector2(475, 200)
 
 [node name="ScreenOverlay" type="CanvasLayer" parent="." unique_id=826076597]
 
@@ -285,4 +322,4 @@ metadata/_custom_type_script = "uid://c8405c212rbn6"
 
 [node name="AmbientAnimation" type="AnimationPlayer" parent="." unique_id=1731205887]
 libraries/ = SubResource("AnimationLibrary_ambfx")
-autoplay = "ambient"
+autoplay = &"ambient"
