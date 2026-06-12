@@ -27,10 +27,10 @@
 [ext_resource type="Script" uid="uid://x1mxt6bmei2o" path="res://scenes/ui_elements/cinematic/cinematic.gd" id="25_80hbb"]
 [ext_resource type="Script" uid="uid://c8405c212rbn6" path="res://scenes/game_elements/props/background_music/components/background_music.gd" id="26_bgmus"]
 [ext_resource type="AudioStream" uid="uid://5mnqb86sgge1" path="res://assets/third_party/ninja_adventure/mystical_theme.ogg" id="27_bgmus"]
-[ext_resource type="TileSet" path="res://scenes/quests/story_quests/los_fragmentos_del_s/tiles/los_fragmentos_del_s_void_chromakey.tres" id="28_vchk"]
-[ext_resource type="TileSet" path="res://scenes/quests/story_quests/los_fragmentos_del_s/tiles/los_fragmentos_del_s_bridges.tres" id="29_brdg"]
-[ext_resource type="PackedScene" path="res://scenes/game_elements/fx/fog/fog.tscn" id="30_fog1"]
-[ext_resource type="PackedScene" path="res://scenes/game_elements/fx/shine_particles/shine_particles.tscn" id="31_shin"]
+[ext_resource type="TileSet" uid="uid://dsybx6f1sge07" path="res://scenes/quests/story_quests/los_fragmentos_del_s/tiles/los_fragmentos_del_s_void_chromakey.tres" id="28_vchk"]
+[ext_resource type="TileSet" uid="uid://hjnr470tkrho" path="res://scenes/quests/story_quests/los_fragmentos_del_s/tiles/los_fragmentos_del_s_bridges.tres" id="29_brdg"]
+[ext_resource type="PackedScene" uid="uid://dpbsi065gmh8a" path="res://scenes/game_elements/fx/fog/fog.tscn" id="30_fog1"]
+[ext_resource type="PackedScene" uid="uid://dm2tlhvjut08q" path="res://scenes/game_elements/fx/shine_particles/shine_particles.tscn" id="31_shin"]
 
 [sub_resource type="Resource" id="Resource_b0pmh"]
 script = ExtResource("21_caoc3")
@@ -49,7 +49,7 @@ tracks/0/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Color(0.86, 0.80, 1.0, 1)]
+"values": [Color(0.86, 0.8, 1, 1)]
 }
 
 [sub_resource type="Animation" id="Animation_pzl_ambient"]
@@ -63,10 +63,10 @@ tracks/0/path = NodePath("DreamLight:color")
 tracks/0/interp = 1
 tracks/0/loop_wrap = true
 tracks/0/keys = {
-"times": PackedFloat32Array(0, 1.0, 2.0, 3.5, 5.0, 6.0, 7.0),
+"times": PackedFloat32Array(0, 1, 2, 3.5, 5, 6, 7),
 "transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1),
 "update": 0,
-"values": [Color(0.86, 0.80, 1.0, 1), Color(0.91, 0.85, 1.0, 1), Color(0.81, 0.75, 0.95, 1), Color(0.86, 0.80, 1.0, 1), Color(0.91, 0.85, 1.0, 1), Color(0.81, 0.75, 0.95, 1), Color(0.86, 0.80, 1.0, 1)]
+"values": [Color(0.86, 0.8, 1, 1), Color(0.91, 0.85, 1, 1), Color(0.81, 0.75, 0.95, 1), Color(0.86, 0.8, 1, 1), Color(0.91, 0.85, 1, 1), Color(0.81, 0.75, 0.95, 1), Color(0.86, 0.8, 1, 1)]
 }
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_pzl_ambfx"]
@@ -79,7 +79,7 @@ _data = {
 
 [node name="TileMapLayers" type="Node2D" parent="." unique_id=2088852286]
 
-[node name="VoidChromakey" type="TileMapLayer" parent="TileMapLayers"]
+[node name="VoidChromakey" type="TileMapLayer" parent="TileMapLayers" unique_id=124882101]
 tile_set = ExtResource("28_vchk")
 
 [node name="Water" type="TileMapLayer" parent="TileMapLayers" unique_id=300386063]
@@ -93,7 +93,7 @@ modulate = Color(0.82, 0.75, 0.96, 1)
 tile_map_data = PackedByteArray("AAACAAEAAgAAAAAAAAADAAEAAgAAAAAAAAAEAAEAAgAAAAAAAAAFAAEAAgAAAAAAAAAGAAEAAgAAAAAAAAAHAAEAAgAAAAAAAAAIAAEAAgAAAAAAAAAJAAEAAgAAAAAAAAAKAAEAAgAAAAAAAAALAAEAAgAAAAAAAAAMAAEAAgAAAAAAAAANAAIAAgAAAAAAAAANAAMAAgAAAAAAAAANAAQAAgAAAAAAAAANAAUAAgAAAAAAAAANAAYAAgAAAAAAAAANAAcAAgAAAAAAAAAMAAgAAgAAAAAAAAALAAgAAgAAAAAAAAAKAAgAAgAAAAAAAAAJAAgAAgAAAAAAAAAIAAgAAgAAAAAAAAAHAAgAAgAAAAAAAAAGAAgAAgAAAAAAAAAFAAgAAgAAAAAAAAAEAAgAAgAAAAAAAAADAAgAAgAAAAAAAAACAAgAAgAAAAAAAAABAAcAAgAAAAAAAAABAAYAAgAAAAAAAAABAAUAAgAAAAAAAAABAAQAAgAAAAAAAAABAAMAAgAAAAAAAAABAAIAAgAAAAAAAAA=")
 tile_set = ExtResource("3_6h56k")
 
-[node name="Bridges" type="TileMapLayer" parent="TileMapLayers"]
+[node name="Bridges" type="TileMapLayer" parent="TileMapLayers" unique_id=2068963018]
 tile_set = ExtResource("29_brdg")
 
 [node name="Grass" type="TileMapLayer" parent="TileMapLayers" unique_id=592819758]
@@ -168,15 +168,15 @@ audio_stream = ExtResource("15_52pt5")
 y_sort_enabled = true
 
 [node name="HintSign1" parent="OnTheGround/SequencePuzzle/Signs" unique_id=948532428 instance=ExtResource("16_80tdl")]
-position = Vector2(440, 300)
+position = Vector2(322, 277)
 sprite_frames = ExtResource("17_lqpoq")
 
 [node name="HintSign2" parent="OnTheGround/SequencePuzzle/Signs" unique_id=2039036310 instance=ExtResource("16_80tdl")]
-position = Vector2(480, 295)
+position = Vector2(453, 210)
 sprite_frames = ExtResource("18_xjmf6")
 
 [node name="HintSign3" parent="OnTheGround/SequencePuzzle/Signs" unique_id=2039036311 instance=ExtResource("16_80tdl")]
-position = Vector2(520, 300)
+position = Vector2(587, 281)
 sprite_frames = ExtResource("17_lqpoq")
 
 [node name="Steps" type="Node2D" parent="OnTheGround/SequencePuzzle" unique_id=666035394]
@@ -205,7 +205,7 @@ collected_dialogue = ExtResource("22_gmiai")
 dialogue_title = &"well_done"
 
 [node name="Sign" parent="OnTheGround" unique_id=263994380 instance=ExtResource("23_wxnkl")]
-position = Vector2(480, 350)
+position = Vector2(459, 539)
 direction = 1
 text = "Primer eco: amarillo, verde, azul. Repite lo que ya existió."
 
@@ -219,59 +219,60 @@ dialogue = ExtResource("22_gmiai")
 metadata/_custom_type_script = "uid://x1mxt6bmei2o"
 
 [node name="DreamLight" type="CanvasModulate" parent="." unique_id=1869940873]
-color = Color(0.86, 0.80, 1.0, 1)
+color = Color(0.86, 0.8, 1, 1)
 
 [node name="BackgroundMusic" type="Node" parent="." unique_id=1869940874]
 script = ExtResource("26_bgmus")
 stream = ExtResource("27_bgmus")
 metadata/_custom_type_script = "uid://c8405c212rbn6"
 
-[node name="Fog" parent="." instance=ExtResource("30_fog1")]
+[node name="Fog" parent="." unique_id=1588383180 instance=ExtResource("30_fog1")]
 modulate = Color(0.75, 0.65, 0.95, 1)
+scroll_offset = Vector2(10, 65)
 
-[node name="ShineParticlesBlue" parent="." instance=ExtResource("31_shin")]
+[node name="ShineParticlesBlue" parent="." unique_id=795294332 instance=ExtResource("31_shin")]
+modulate = Color(0.7, 0.5, 1, 1)
 position = Vector2(220, 140)
-modulate = Color(0.7, 0.5, 1, 1)
 emitting = true
 one_shot = false
 
-[node name="ShineParticlesPink" parent="." instance=ExtResource("31_shin")]
+[node name="ShineParticlesPink" parent="." unique_id=1938890550 instance=ExtResource("31_shin")]
+modulate = Color(0.7, 0.5, 1, 1)
 position = Vector2(680, 140)
-modulate = Color(0.7, 0.5, 1, 1)
 emitting = true
 one_shot = false
 
-[node name="ShineParticlesYellow" parent="." instance=ExtResource("31_shin")]
+[node name="ShineParticlesYellow" parent="." unique_id=241994353 instance=ExtResource("31_shin")]
+modulate = Color(0.7, 0.5, 1, 1)
 position = Vector2(150, 320)
-modulate = Color(0.7, 0.5, 1, 1)
 emitting = true
 one_shot = false
 
-[node name="ShineParticlesGreen" parent="." instance=ExtResource("31_shin")]
+[node name="ShineParticlesGreen" parent="." unique_id=402086818 instance=ExtResource("31_shin")]
+modulate = Color(0.7, 0.5, 1, 1)
 position = Vector2(760, 320)
-modulate = Color(0.7, 0.5, 1, 1)
 emitting = true
 one_shot = false
 
-[node name="ShineParticlesPurple" parent="." instance=ExtResource("31_shin")]
+[node name="ShineParticlesPurple" parent="." unique_id=2086423502 instance=ExtResource("31_shin")]
+modulate = Color(0.7, 0.5, 1, 1)
 position = Vector2(220, 500)
-modulate = Color(0.7, 0.5, 1, 1)
 emitting = true
 one_shot = false
 
-[node name="ShineParticlesRed" parent="." instance=ExtResource("31_shin")]
+[node name="ShineParticlesRed" parent="." unique_id=1211177020 instance=ExtResource("31_shin")]
+modulate = Color(0.7, 0.5, 1, 1)
 position = Vector2(680, 500)
-modulate = Color(0.7, 0.5, 1, 1)
 emitting = true
 one_shot = false
 
-[node name="ShineParticlesCollectible" parent="." instance=ExtResource("31_shin")]
+[node name="ShineParticlesCollectible" parent="." unique_id=1621780545 instance=ExtResource("31_shin")]
+modulate = Color(0.7, 0.5, 1, 1)
 position = Vector2(480, 580)
-modulate = Color(0.7, 0.5, 1, 1)
 emitting = true
 one_shot = false
 
-[node name="AmbientAnimation" type="AnimationPlayer" parent="."]
+[node name="AmbientAnimation" type="AnimationPlayer" parent="." unique_id=373222913]
 libraries/ = SubResource("AnimationLibrary_pzl_ambfx")
 autoplay = &"ambient"
 
